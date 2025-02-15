@@ -128,7 +128,9 @@ input,
 select {
     background: #222;
     color: white;
+    border: 1px solid white;
 }
+
 
 button {
     background: #e50914;
