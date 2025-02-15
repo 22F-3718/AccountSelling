@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Accounts for Sale</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo">
+        </div>
+        <h1>Get Your Netflix Account Now!</h1>
+    </header>
+
+    <section class="offers">
+        <h2>Our Offers</h2>
+        <div class="offer-list">
+            <div class="offer-card">
+                <div class="offer-inner">
+                    <div class="offer-front">
+                        <h3>Basic Plan</h3>
+                        <p>1 Screen, HD Quality</p>
+                        <p class="price">Rs. 350/month</p>
+                    </div>
+                    <div class="offer-back">
+                        <h3>Basic Plan Details</h3>
+                        <ul>
+                            <li>✔ 1 Screen</li>
+                            <li>✔ HD Quality</li>
+                            <li>✔ Watch on mobile, tablet, TV</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-inner">
+                    <div class="offer-front">
+                        <h3>Standard Plan</h3>
+                        <p>2 Screens, HD Quality</p>
+                        <p class="price">Rs. 650/month</p>
+                    </div>
+                    <div class="offer-back">
+                        <h3>Standard Plan Details</h3>
+                        <ul>
+                            <li>✔ 2 Screens</li>
+                            <li>✔ Full HD Quality</li>
+                            <li>✔ Watch on mobile, tablet, TV</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offer-card">
+                <div class="offer-inner">
+                    <div class="offer-front">
+                        <h3>Premium Plan</h3>
+                        <p>5 Screens, UHD Quality</p>
+                        <p class="price">Rs. 1650/month</p>
+                    </div>
+                    <div class="offer-back">
+                        <h3>Premium Plan Details</h3>
+                        <ul>
+                            <li>✔ 5 Screens</li>
+                            <li>✔ Ultra HD 4K Quality</li>
+                            <li>✔ Watch on mobile, tablet, TV</li>
+                            <li>✔ Dolby Atmos Sound</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section class="order-form">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="number">WhatsApp Contact</label>
+            <input type="number" id="contact" required>
+
+            <label for="plan">Select Plan</label>
+            <select id="plan">
+                <option value="Basic">Basic - 350/month</option>
+                <option value="Standard">Standard - 650/month</option>
+                <option value="Premium">Premium - 1650/month</option>
+            </select>
+            <br>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us on WhatsApp</p>
+        <a href="https://wa.me/923053694346" target="_blank" class="whatsapp-btn">Message on WhatsApp</a>
+        <br><br>
+        &copy; 2025 Netflix Accounts
+    </footer>
+</body>
+
+</html>
